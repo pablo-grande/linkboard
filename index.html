@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Linkboard</title>
+        <script src="main.js"></script>
+        <style>
+            .center {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            body {
+                background-color: aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <input type="text" onfocusout="createShortLink()" size="150" placeholder="Enter link to shorten">
+            <center><code></code></center>
+        </div>
+    </body>
+</html>
